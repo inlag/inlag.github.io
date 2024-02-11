@@ -21,9 +21,11 @@ hr {
     text-align: center;
     border: 0;
 }
+
 hr:before {
     content: "/////";
 }
+
 hr:after {
     content: attr(data-content) "/////";
 }
@@ -37,6 +39,13 @@ table, th, td {
 @font-face {
     font-family: 'Pragmatapro';
     src: url(/assets/fonts/Pragmatapro.ttf);
+}
+
+.header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-self: center;
 }
 
 /*# sourceMappingURL=main.css.map */
