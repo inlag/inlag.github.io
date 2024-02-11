@@ -3,14 +3,14 @@ body {
     background-color: white;
     font-family: 'Pragmatapro';
     font-size: 1.3rem;
-    line-height: 1.3rem;
 }
 
 .wrapper {
     width: fit-content;
-    max-width: 640px;
+    max-width: 1000px;
     margin: 4rem auto;
     padding: 0 1rem;
+    line-height: initial;
 }
 
 h1 {
