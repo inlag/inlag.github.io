@@ -1,0 +1,42 @@
+body {
+    color: black;
+    background-color: white;
+    font-family: 'Pragmatapro';
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+}
+
+.wrapper {
+    width: fit-content;
+    max-width: 640px;
+    margin: 4rem auto;
+    padding: 0 1rem;
+}
+
+h1 {
+    line-height: 2rem;
+}
+
+hr {
+    text-align: center;
+    border: 0;
+}
+hr:before {
+    content: "/////";
+}
+hr:after {
+    content: attr(data-content) "/////";
+}
+
+table, th, td {
+    border: thin solid black;
+    border-collapse: collapse;
+}
+
+
+@font-face {
+    font-family: 'Pragmatapro';
+    src: url(/assets/fonts/Pragmatapro.ttf);
+}
+
+/*# sourceMappingURL=main.css.map */
