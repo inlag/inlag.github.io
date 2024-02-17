@@ -1,3 +1,13 @@
 <footer>
+    <script>
+        function colorSwitcher() {
+            var elementById = document.getElementById("body");
+            if (elementById.attributes['a'].value === 'light') {
+                elementById.attributes['a'].value = 'dark';
+            } else {
+                elementById.attributes['a'].value = 'light';
+            }
+        };
+    </script>
     &copy; to me
 </footer>

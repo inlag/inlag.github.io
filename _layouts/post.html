@@ -7,10 +7,12 @@ layout: default
 <article>
     <p class="post-meta">
         <time datetime="{{ page.date }}">{{ page.date | date: site.theme_config.date_format }}</time>
-        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+        <i onclick="colorSwitcher() " class="fa fa-lightbulb-o" aria-hidden="true"></i>
     </p>
 
     <h1>{{ page.title }}</h1>
 
     {{ content }}
 </article>
+
+{% include footer.html %}
