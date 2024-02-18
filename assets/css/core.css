@@ -48,4 +48,10 @@ table, th, td {
     align-self: center;
 }
 
+.footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+}
+
 /*# sourceMappingURL=main.css.map */
