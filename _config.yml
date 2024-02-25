@@ -20,8 +20,8 @@
 
 title: inlag.dev
 email: khorbin96@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  //todo: 
+author: "Sergey Khorbin"
+description: "This is my attempt at RnD."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://inlag.dev" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: inlag
